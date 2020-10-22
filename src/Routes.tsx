@@ -8,7 +8,7 @@ const Routes: FC = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/results" component={Results} />
+        <Route path="/results/:id" component={Results} />
       </Switch>
     </BrowserRouter>
   );
