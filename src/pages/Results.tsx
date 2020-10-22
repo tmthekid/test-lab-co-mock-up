@@ -101,7 +101,7 @@ const Results: FC<RouteComponentProps<Props>> = ({ match }) => {
       >
         <div>
           <strong style={{ textTransform: 'uppercase', fontSize: '15px' }}>
-            Issued To
+            Issued To :
           </strong>
           <p style={{ fontWeight: 'bold' }}>Company Name</p>
           <p style={{ fontWeight: 'bold' }}>123 Anywhere St.</p>
@@ -111,7 +111,7 @@ const Results: FC<RouteComponentProps<Props>> = ({ match }) => {
         </div>
         <div>
           <strong style={{ textTransform: 'uppercase', fontSize: '15px' }}>
-            Test Details
+            Test Details :
           </strong>
           <p style={{ fontWeight: 'bold' }}>Test Date: Sept 20, 2019</p>
           <p style={{ fontWeight: 'bold' }}>Lab Location: Amherst</p>
