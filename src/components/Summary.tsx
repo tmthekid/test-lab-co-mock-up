@@ -30,7 +30,7 @@ const Summary: FC = () => {
                   key={i}
                   align={i === 0 ? 'left' : 'center'}
                   style={
-                    headers.length - 1 === i ? { background: '#cbaf87' } : {}
+                    headers.length - 1 === i ? { background: '#40c4ff' } : {}
                   }
                 >
                   {h}
@@ -46,7 +46,7 @@ const Summary: FC = () => {
               <TableCell align="center">≥98</TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 Pass any Level
               </TableCell>
@@ -60,7 +60,7 @@ const Summary: FC = () => {
               <TableCell align="center">{`<6.0`}</TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 Pass any Level
               </TableCell>
@@ -74,7 +74,7 @@ const Summary: FC = () => {
               <TableCell align="center">≥98</TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 Pass any Level
               </TableCell>
@@ -89,7 +89,7 @@ const Summary: FC = () => {
               <TableCell align="center">120</TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 Pass Level 3
               </TableCell>
@@ -101,7 +101,7 @@ const Summary: FC = () => {
               <TableCell align="center">Class 1</TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 Pass any Level
               </TableCell>

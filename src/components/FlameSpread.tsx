@@ -26,7 +26,7 @@ const FlameSpread: FC = () => {
                   key={i}
                   align="center"
                   style={
-                    headers.length - 1 === i ? { background: '#cbaf87' } : {}
+                    headers.length - 1 === i ? { background: '#40c4ff' } : {}
                   }
                 >
                   {h}
@@ -48,7 +48,7 @@ const FlameSpread: FC = () => {
               <TableCell
                 align="center"
                 rowSpan={5}
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 Classified as Class 1 PASS for ANY LEVEL
               </TableCell>

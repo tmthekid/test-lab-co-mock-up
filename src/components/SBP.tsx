@@ -30,7 +30,7 @@ const SBP: FC = () => {
                   key={i}
                   align="center"
                   style={
-                    headers.length - 1 === i ? { background: '#cbaf87' } : {}
+                    headers.length - 1 === i ? { background: '#40c4ff' } : {}
                   }
                 >
                   {h}
@@ -46,7 +46,7 @@ const SBP: FC = () => {
               <TableCell align="center">32</TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 Pass for Level 3
               </TableCell>
@@ -71,11 +71,11 @@ const SBP: FC = () => {
             </TableRow>
             <TableRow>
               <TableCell style={{ fontWeight: 'bold' }}>Supplier</TableCell>
-              <TableCell>Vitacore Industries Inc</TableCell>
+              <TableCell>Acme</TableCell>
             </TableRow>
             <TableRow>
               <TableCell style={{ fontWeight: 'bold' }}>Lot number</TableCell>
-              <TableCell>FM3001A</TableCell>
+              <TableCell>21673421</TableCell>
             </TableRow>
             <TableRow>
               <TableCell style={{ fontWeight: 'bold' }}>

@@ -30,7 +30,7 @@ const DifferentialPressure: FC = () => {
                   key={i}
                   align="center"
                   style={
-                    headers.length - 1 === i ? { background: '#cbaf87' } : {}
+                    headers.length - 1 === i ? { background: '#40c4ff' } : {}
                   }
                 >
                   {h}
@@ -55,7 +55,7 @@ const DifferentialPressure: FC = () => {
               <TableCell
                 rowSpan={30}
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 PASS Any Level
               </TableCell>
@@ -79,13 +79,13 @@ const DifferentialPressure: FC = () => {
             <TableRow>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 AVERAGE
               </TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 3.7
               </TableCell>
@@ -123,13 +123,13 @@ const DifferentialPressure: FC = () => {
             <TableRow>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 AVERAGE
               </TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 3.8
               </TableCell>
@@ -167,13 +167,13 @@ const DifferentialPressure: FC = () => {
             <TableRow>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 AVERAGE
               </TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 4.5
               </TableCell>
@@ -211,13 +211,13 @@ const DifferentialPressure: FC = () => {
             <TableRow>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 AVERAGE
               </TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 4.1
               </TableCell>
@@ -255,13 +255,13 @@ const DifferentialPressure: FC = () => {
             <TableRow>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 AVERAGE
               </TableCell>
               <TableCell
                 align="center"
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 4.1
               </TableCell>

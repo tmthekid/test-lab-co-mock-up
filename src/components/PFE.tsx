@@ -33,7 +33,7 @@ const PFE = () => {
                   key={i}
                   align="center"
                   style={
-                    headers.length - 1 === i ? { background: '#cbaf87' } : {}
+                    headers.length - 1 === i ? { background: '#40c4ff' } : {}
                   }
                 >
                   {h}
@@ -51,7 +51,7 @@ const PFE = () => {
               <TableCell
                 align="center"
                 rowSpan={5}
-                style={{ background: '#cbaf87', fontWeight: 'bold' }}
+                style={{ background: '#40c4ff', fontWeight: 'bold' }}
               >
                 Pass any Level
               </TableCell>
